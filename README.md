@@ -25,13 +25,13 @@ utils
 
 File		| Description
 ----------------|--------------
-find_diff.m	| Content Cell
-manICP.m	| Content Cell
-parsepicname.m	| Content Cell
-parseVNRow.m	| Content Cell
-parseLdrRow.m	| Content Cell
-rotation.m	| Content Cell
-findoes.m	| Content Cell
+find_diff.m	| Takes two point clouds with matching points lined up and calculates displacement.
+manICP.m	| really terrible and brute force way of finding close points between two clouds.
+parsepicname.m	| parses out the name of the saved image file
+parseVNRow.m	| parses out the vector nav row
+parseLdrRow.m	| parses out the lidar row
+rotation.m	| matlab function for generalized rotation matrix ypr
+findoes.m	| finds the longest string of ones in a matrix and returns indicies (not actually used)
 
 -------------------------
 viewbridgesets
