@@ -1,12 +1,13 @@
 IRLBridge and Sensor Fusion Post Process
 --
-
-This is a link to download the data if you so choose
-https://drive.google.com/file/d/0B2Fx5zzCPnftSVdKNUJXQzBWNEk/edit?usp=sharing
-
 This is the directory I used for the MDOT code, there is some extra code in
 here that could also be used for viewing the fusion code from a more general
 scale.
+
+-------------------------
+*disclosure, I did not actually use version control before this (as it is obvious based
+ on the organization of the files below.  I just wanted to get everything in one spot
+ so that I can organize it better in the future.
 
 -------------------------
 testviewsets
@@ -38,6 +39,9 @@ viewbridgesets
 	Specialized cdoe from the testviewsets which I used for
 creating the bridge for MDOT.  The bridge code that was used
 for the MDOT presentation is view_bridge_v3.m
+
+link to the google drive where the bridge data is stored,
+https://drive.google.com/file/d/0B2Fx5zzCPnftSVdKNUJXQzBWNEk/edit?usp=sharing
 
 File				| Description
 --------------------------------|--------------
