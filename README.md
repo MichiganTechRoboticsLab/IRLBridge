@@ -14,10 +14,10 @@ testviewsets
 
 File			| Description
 ------------------------|--------------
-testview.m		| Content Cell
-testview2_1.m		| Content Cell
-testview2.m		| Content Cell
-testviewv3_base.m	| Content Cell
+testview.m		| first iteration of the testview code
+testview2_1.m		| testview code husam modified to create 3d models of the dataset we collected outdoors
+testview2.m		| second iteration of the testview code
+testviewv3_base.m	| third iteration of the testview code, this is the first one to actually convert gps to meters
 
 -------------------------
 utils
@@ -41,17 +41,11 @@ for the MDOT presentation is view_bridge_v3.m
 
 File				| Description
 --------------------------------|--------------
-view_bridge_icp.m		| Content Cell
-view_bridge.m			| Content Cell
-view_bridge_v3_base.m		| Content Cell
-view_bridge_v3_base_square.m	| Content Cell
-view_bridge_v3_linear_interp.m	| Content Cell
-view_bridge_v3.m		| Content Cell
+view_bridge_icp.m		| tried to run the bridge through my bad icp algorithm
+view_bridge.m			| first rendition of viewing the bridge
+view_bridge_v3_base.m		| succesful bridge viewer without any algorithms or changes 
+view_bridge_v3_base_square.m	| tries to match the center of masses
+view_bridge_v3_linear_interp.m	| linearly interps the path
+view_bridge_v3.m		| does everything together, final output submitted to MDOT
 
 -------------------------
-
-```matlab
-x = [1 2 3 4];
-y = [7 8 9 10];
-z = x + y;
-```
