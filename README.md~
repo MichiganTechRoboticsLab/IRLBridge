@@ -26,7 +26,7 @@ utils
 File		| Description
 ----------------|--------------
 find_diff.m	| Takes two point clouds with matching points lined up and calculates displacement.
-manICP.m	| really terrible and brute force way of finding close points.
+manICP.m	| really terrible and brute force way of finding close points between two clouds.
 parsepicname.m	| parses out the name of the saved image file
 parseVNRow.m	| parses out the vector nav row
 parseLdrRow.m	| parses out the lidar row
@@ -50,5 +50,10 @@ view_bridge_v3.m		| Content Cell
 
 -------------------------
 
+```matlab
+x = [1 2 3 4];
+y = [7 8 9 10];
+z = x + y;
+```
 
 
